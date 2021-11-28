@@ -1,4 +1,4 @@
-# FLAPP BIRD
+# FLAPPY BIRD
 * Nguyen Nhat Hao
 * Hao Nhat Nguyen
 * Nguyen Hao Nhat
