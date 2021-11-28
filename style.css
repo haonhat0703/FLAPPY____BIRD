@@ -1,0 +1,73 @@
+{}
+
+body{
+    -moz-user-select: none !important;
+    -webkit-touch-callout: none!important;
+    -webkit-user-select: none!important;
+    -khtml-user-select: none!important;
+    -moz-user-select: none!important;
+    -ms-user-select: none!important;
+    user-select: none!important;
+    }
+    
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+#gamezone{
+    display: block;
+    margin: 0 auto;
+    border: 2px dashed black;
+    background-color: aqua;
+}
+
+#score, #maxscore{
+    color: red;
+    font-size: 50px;
+    margin: 20px 50px;
+    //text-align: center;
+    max-width: 45%;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.new{
+    width: 500px;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: red;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    transition: 0.3s;
+}
+
+.new:active{
+    color: aliceblue;
+    background-color: aqua;
+}
+
+.hid{
+    font-size: 0px;
+    display: none;
+    
+}
+
+@media screen and (max-width: 600px){
+    .top{
+        margin-left: 400px;
+        font-size: 25px;
+    }
+   
+}
